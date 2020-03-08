@@ -12,7 +12,9 @@
 
 
 hs.alert.show("Spacehammer config loaded")
-
+hyper = {"cmd","alt","shift","ctrl"}
+require("audio")
+require("mount")
 fennel = require("fennel")
 table.insert(package.loaders or package.searchers, fennel.searcher)
 
